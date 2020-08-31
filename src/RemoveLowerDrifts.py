@@ -14,8 +14,8 @@ DataDirectory = r"/mnt_scratch/SCD/turboseti/hit_lists" # On the cluster
 # DataDirectory = os.path.join(os.path.dirname(ScriptDirectory), 'OtherData', 'hit_lists')# Local to SK's computer
 
 TrimmedDataDirectory = r"/mnt_scratch/SCD/turboseti/trimmed_hit_lists" # On the cluster
-TrimmedDataDirectory = os.path.join(os.path.dirname(ScriptDirectory), 'OtherData', 'trimmed_hit_lists')# Local to SK's computer
-TrimmedDataDirectory = r"/home/shbhuk/trimmed_hit_lists"
+#TrimmedDataDirectory = os.path.join(os.path.dirname(ScriptDirectory), 'OtherData', 'trimmed_hit_lists')# Local to SK's computer
+#TrimmedDataDirectory = r"/home/shbhuk/trimmed_hit_lists"
 
 # Check which drift rates have been run in the data directory
 # Save only those outputs that are directories
