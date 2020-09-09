@@ -34,7 +34,6 @@ for i, d in enumerate(DriftRateRange):
         os.mkdir(os.path.join(TrimmedDataDirectory, str(d)))
         print("Trimmed directory created for drift = {} Hz/s".format(d))
 
-
     for j, fn in enumerate(ListofHitFiles):
         Hits_df = pd.read_csv(os.path.join(HitListDirectory, fn), delimiter="\t", skiprows=9)
         Hits_df = Hits_df.iloc[:,:-1]
